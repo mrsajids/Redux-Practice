@@ -16,4 +16,4 @@ export const fetchAction=(dispach)=>{
             payload:data
         })
     }
-}
+} 
