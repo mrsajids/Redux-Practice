@@ -10,9 +10,9 @@ const handleSubmit=async (e)=>{
 
   try {
     const response = await axios.post('http://localhost:4000/',data)
-    alert(response.data+" Inserted successfully");
+    alert(response.data+" Inserted successfully")
   } catch (error) {
-    console.log(error);
+    console.log(error)
   }
 }
   return (
